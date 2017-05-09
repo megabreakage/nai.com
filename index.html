@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Nai.com</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/js.js"></script>
-  </head>
-  <body>
-    <div class="col-xs-12 col-lg-12 mainWrapper">
-      <div class="col-xs-12 col-lg-12 landingPage">
-        <div class="col-xs-12 col-lg-12 welcomeNote ">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nai.com</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/js.js"></script>
+</head>
+
+<body>
+  <div class="col-xs-12 col-lg-12 mainWrapper">
+    <div class="col-xs-12 col-lg-12 landingPage" id="landing">
+      <div class="col-xs-12 col-lg-12 combinedNote" id="hideNote">
+
+        <div class="col-xs-12 col-lg-12 welcomeNote " id="welcome">
           <h2>Welcome to Nairobi!</h2>
         </div>
-        <div class="col-xs-12 col-lg-12  logo">
-          <img src="#" alt="logo">
+        <div class="col-xs-12 col-lg-12  logo" id="startLogo">
+          <img src="images/lion.svg" alt="logo">
         </div>
 
       </div>
-
-      <!-- The start page -->
-      <!-- find the hamburger code -->
-      <div class="hamburger">
-
-      </div>
-
       <!-- the start menu -->
-      <div class="col-xs-12 col-lg-12 startMenu">
-        <div class="col-xs-12 col-lg-3 wildlife">
-          <h4>Wildlife</h4>
+      <div class="col-xs-12 col-lg-12 startMenu" id="menu">
+        <a href="#">
+          <div class="col-xs-12 col-lg-3 wildlife">
+            <h4>Wildlife</h4>
 
-        </div>
-        <div class="col-xs-12 col-lg-3 hotels">
+          </div>
+        </a>
+        <a href="#">
+          <div class="col-xs-12 col-lg-3 hotels">
             <h4>Hotels</h4>
-        </div>
-        <div class="col-xs-12 col-lg-3 leisure">
-          <h4>Leisure</h4>
-        </div>
-        <div class="col-xs-12 col-lg-3 services">
+          </div>
+        </a>
+        <a href="#">
+          <div class="col-xs-12 col-lg-3 leisure">
+            <h4>Leisure</h4>
+          </div>
+        </a>
+        <a href="#">
+          <div class="col-xs-12 col-lg-3 services">
             <h4>Services</h4>
-        </div>
+          </div>
       </div>
+      </a>
+
     </div>
-  </body>
+
+    <!-- The start page -->
+    <!-- find the hamburger code -->
+    <div class="hamburger">
+
+    </div>
+
+
+  </div>
+</body>
+
 </html>
