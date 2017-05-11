@@ -1,0 +1,41 @@
+.col-lg-12 {
+  padding: 0;
+}
+
+body {
+  font-family: cursive;
+}
+
+.landingPage {
+  background-image: url('../images/nai2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 768px;
+  text-align: center;
+}
+
+.welcomeNote {
+  position: relative;
+  padding-top: 15%;
+  color: white;
+}
+
+.startMenu {
+  display: none;
+  position: relative;
+  margin-top: 25%;
+  color: white;
+}
+
+.logo img {
+  height: 200px;
+}
+
+.hotels, .wildlife, .leisure, .services {
+  text-align: center;
+  padding: 50px;
+  border-radius: 100%; 
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-top: 15px;
+  color: #ffffff;
+}
