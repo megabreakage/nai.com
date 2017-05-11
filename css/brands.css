@@ -1,0 +1,154 @@
+.navbar-text> a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+
+bg-image:img src="assets/backgrounds/landing.jpg"alt="landing page" class="img-responsive"  ;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*headers*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-default {
+    background-color: #F15A29;
+    border-color: white;
+    color: white;
+}
+
+.navbar-default,
+.navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #18bc9c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav >li >a {
+    color: white;
+}
+
+.navbar-default .navbar-nav> .active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #1a242f;
+}
+
+.navbar-default .navbar-nav > li > a:hover .navbar-default .navbar-nav > li>a:focus {
+    color: #18bc9c;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav> .open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #1a242f;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+    color: white;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+open .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #1a242f;
+    border-color: #161f299;
+}
+
+.btn-success {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    color: white;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+open .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #13987e;
+    border-color: #13987e;
+}
+
+.btn-default {
+    background-color: #18bc9c;
+    border-color: #18bc9c;
+    color: white;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+open .dropdown-toggle.btn-primary {
+    color: white;
+    background-color: #7f9293;
+    border-color: #74898a;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+>thumbnail img {
+    transition: all 0.2s ease 0s;
+    width: 100%;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+.bg-grey {
+    #f9f9f9;
+}
+
+
+/*experiment*/
+
+html,
+body {
+    height: 100%;
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
