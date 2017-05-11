@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: cursive;
+  font-family: 'Handlee', cursive;
 }
 
 .landingPage {
@@ -16,7 +16,7 @@ body {
 
 .welcomeNote {
   position: relative;
-  padding-top: 15%;
+  padding-top: 12%;
   color: white;
 }
 
@@ -27,6 +27,13 @@ body {
   color: white;
 }
 
+.logo{
+  margin-top: 20px;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
 .logo img {
   height: 200px;
 }
@@ -34,8 +41,11 @@ body {
 .hotels, .wildlife, .leisure, .services {
   text-align: center;
   padding: 50px;
-  border-radius: 100%; 
+  border-radius: 100%;
   background-color: rgba(255, 255, 255, 0.3);
   margin-top: 15px;
   color: #ffffff;
+}
+.mainContent{
+  display: none;
 }
