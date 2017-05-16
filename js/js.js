@@ -7,4 +7,12 @@ $(document).ready(function() {
     $('#menu').fadeIn(4000);
 
   });
+
+  $('a#link_id').click(function(){
+    window.open('url', 'wildlife.html');
+    return false;
+  });
+
+  $('h1, h2, h3, h4, h5, h6').addClass('animated bounceInLeft');
+  $('.contentDiv').addClass('animated fadeIn');
 });
