@@ -13,8 +13,14 @@ $(document).ready(function() {
     return false;
   });
 
-  $('h1, h2, h3, h4, h5, h6').addClass('animated bounceInLeft');
-  $('.contentDiv').addClass('animated fadeIn');
+  //add classes to html elements
+  $('h1, h2, h3, h4, h5, h6').addClass('animated wow bounceInLeft');
+  $('.contentDiv1, .contentDiv2').addClass('animated wow fadeIn');
+  $('p').addClass('animated wow fadeIn');
+  $('.slideFrame').addClass('animated wow bounceIn');
+
+  // for loading elements on viewport
+  new WOW().init();
 
   //START SMOOTH SCROLLING
 
