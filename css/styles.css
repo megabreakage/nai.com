@@ -41,6 +41,8 @@ h1, h2, h3, h4, h5, h6{
   height: 300px;
   width: 300px;
 }
+
+/*start of the start page menu*/
 .startMenu {
   display: none;
   position: relative;
@@ -87,7 +89,15 @@ h1, h2, h3, h4, h5, h6{
   overflow: hidden;
   position: fixed;
 }
+.headerLogo{
+  background-image: url('../images/print.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
 .headerLogo img{
+  margin-top: 19px;
   height: 70px;
   width: 70px;
 }
