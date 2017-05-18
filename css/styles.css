@@ -1,7 +1,7 @@
 body {
   font-family: 'Handlee', cursive;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 18px;
 }
 .col-lg-12 {
   padding: 0;
@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 1080px;
+  height: 768px;;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  height: 1080px;
+  height: 768px;
 }
 
 .glossBackground{
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6{
   margin-top: 3%;
 }
 .contentDiv{
-  height: 1080px;
+  height: 768px;
 }
 .contentDiv1, .contentDiv2{
   margin-top: 2px;
@@ -147,18 +147,20 @@ h1, h2, h3, h4, h5, h6{
   background-image: url('../images/sarova-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1080px;
+  background-attachment: fixed;
+  height: 768px;
 }
 .leisure{
   background-image: url('../images/bar_lounge.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 1080px;
+  height: 768px;
 }
 .services{
-  background-image: url('../images/naihotel.jpg');
+  background-image: url('../images/th4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1080px;
+  background-attachment: fixed;
+  height: 768px;
 }

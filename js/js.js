@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   $('#startLogo').click(function() {
     $('#hideNote').fadeOut(3000);
-    $('#menu').fadeIn(8000);
+    $('#menu').fadeIn(9000);
 
   });
 
