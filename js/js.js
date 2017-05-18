@@ -7,4 +7,12 @@ $(document).ready(function() {
     $('#menu').fadeIn(4000);
 
   });
+  $('#wild').click(function() {
+
+    $('#wildIntro').fadeIn(4000);
+
+  });
+
+
+
 });
