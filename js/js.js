@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 
   $('#startLogo').click(function() {
-    $('#hideNote').fadeOut(2000);
-    $('#menu').fadeIn(4000);
+    $('#hideNote').fadeOut(3000);
+    $('#menu').fadeIn(8000);
 
   });
 
@@ -14,6 +14,7 @@ $(document).ready(function() {
   });
 
   //add classes to html elements
+  $('.animatedPic, .frame img').addClass('animated bounceIn');
   $('h1, h2, h3, h4, h5, h6').addClass('animated wow bounceInLeft');
   $('.contentDiv1, .contentDiv2').addClass('animated wow fadeIn');
   $('p').addClass('animated wow fadeIn');
