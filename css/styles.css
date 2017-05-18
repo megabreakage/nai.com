@@ -1,6 +1,7 @@
 body {
   font-family: 'Handlee', cursive;
   color: #ffffff;
+  font-size: 18px;
 }
 .col-lg-12 {
   padding: 0;
@@ -12,15 +13,18 @@ h1, h2, h3, h4, h5, h6{
   background-image: url('../images/nai2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  /*position: fixed;*/
-  height: 768px;
+  background-attachment: fixed;
+  height: 768px;;
   text-align: center;
 }
 
 .welcomeNote {
   position: relative;
   padding-top: 12%;
-  color: white;
+  color: #ffffff;
+}
+.logoDiv{
+  padding: 60px;
 }
 .logo{
   float: none !important;
@@ -28,42 +32,45 @@ h1, h2, h3, h4, h5, h6{
   background-image: url('../images/print.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
-  width: 400px;
-}
-.animatedPic{
-  -webkit-animation-duration: 5s;
-  -webkit-animation-delay: 1s;
-  -webkit-animation-iteration-count: infinite;
-}
-.logo img {
-  margin-top: 80px;
   height: 300px;
   width: 300px;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/*start of the start page menu*/
+.welcomeNote2{
+  padding: 40px;
 }
 .startMenu {
   display: none;
   position: relative;
   margin-top: 10%;
   color: white;
-  padding: 0;
+}
+.frameDiv{
+
 }
 .frame {
-  padding: 0;
-  text-align: center;
+  margin: 0 auto;
   background-image: url('../images/print.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
   color: #ffffff;
-  height: 300px;
-  width: 300px;
-}
-.frame img {
   height: 200px;
   width: 200px;
 }
-.mainContent{
-  display: none;
+.frame img {
+  width: 100%;
+  height: 100%;
+}
+.frame a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #ffffff;
 }
 .mainContentWrapper{
   padding: 0;
@@ -71,11 +78,6 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
   height: 768px;
 }
 
@@ -87,9 +89,16 @@ h1, h2, h3, h4, h5, h6{
   overflow: hidden;
   position: fixed;
 }
+.headerLogo{
+  background-image: url('../images/print.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+}
 .headerLogo img{
-  height: 70px;
-  width: 70px;
+  height: 100%;
+  width: 100%;
 }
 .topMenu ul{
   float: right;
@@ -105,19 +114,19 @@ h1, h2, h3, h4, h5, h6{
 .topMenu a{
   padding: 30px;
 }
-.wildlife{
+.content{
+  margin-top: 3%;
+}
+.contentDiv{
   height: 768px;
 }
-.wildlifeContent{
-  margin-top: 5%;
-}
-.wildlife1, .wildlife2{
+.contentDiv1, .contentDiv2{
   margin-top: 2px;
   padding: 30px;
   background: rgba(51, 187, 255, 0.3);
   border-radius: 10px;
 }
-.wildlife2{
+.contentDiv2{
   float: right !important;
 }
 .slide{
@@ -125,24 +134,20 @@ h1, h2, h3, h4, h5, h6{
   margin: 0 auto;
 }
 .slideFrame{
-  margin-top: 5%;
+  margin-top: 2%;
   height: 200px;
-  /*border: 1px dashed white;*/
 }
 .slideFrame img{
   width: 100%;
   height: 100%;
   border-radius: 10px;
 }
-/*.contentDiv{
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 768px;
-}*/
+
 .hotels{
-  background-image: url('../images/naihotel.jpg');
+  background-image: url('../images/sarova-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 768px;
 }
 .leisure{
@@ -153,8 +158,9 @@ h1, h2, h3, h4, h5, h6{
   height: 768px;
 }
 .services{
-  background-image: url('../images/naihotel.jpg');
+  background-image: url('../images/th4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   height: 768px;
 }
